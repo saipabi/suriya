@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to forms</title>
+ </head>
+ <body>
+    <h1>Application Forms </h1>
+    <div>
+        <form action="/ServerURL" method="POST" >
+            <lable for="name">Name:</lable>
+            <input id="name" type="text" name="name" required />
+
+            <lable for="email">Email:</lable>
+            <input id="email"
+             type="email" 
+             placeholder="Enter only official email"
+             name="email"
+             required
+              />
+        <lable for="address">Address:</lable>
+        <textarea rows="5" col="10"></textarea>
+        <select id="country" name=""country>
+         <option value="ind">india</option>
+         <option value="pak">pakistan</option>
+         <option value="us">united states of america</option>
+         <option value="sri">srilanka</option>
+        </select>
+        <input type="submit" value="save">
+        </form>
+    </div>
+    
+ </body>
+ </html>
